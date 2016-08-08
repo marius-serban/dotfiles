@@ -7,3 +7,5 @@
 	template = ~/.stCommitMsg
 [core]
 	excludesfile = /Users/marius/.gitignore_global
+[push]
+	default = simple
