@@ -1,0 +1,9 @@
+[user]
+	name = Marius Serban
+	email = marius.serban@protonmail.com
+	signingkey = 17A62ABA
+[commit]
+	gpgsign = true
+	template = ~/.stCommitMsg
+[core]
+	excludesfile = /Users/marius/.gitignore_global
