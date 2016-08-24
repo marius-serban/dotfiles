@@ -11,3 +11,4 @@
 	default = simple
 [alias]
 	lg = log --all --oneline --decorate --graph
+	staged = diff --cached
