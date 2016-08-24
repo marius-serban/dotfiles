@@ -9,3 +9,5 @@
 	excludesfile = /Users/marius/.gitignore_global
 [push]
 	default = simple
+[alias]
+	lg = log --all --oneline --decorate --graph
