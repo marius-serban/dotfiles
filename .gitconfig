@@ -10,5 +10,10 @@
 [push]
 	default = simple
 [alias]
-	lg = log --all --oneline --decorate --graph
+	lg = log --oneline --decorate
+	lga = log --all --oneline --decorate --graph
 	staged = diff --cached
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
