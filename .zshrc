@@ -4,7 +4,7 @@ ZSH_THEME="agnoster"
 DEFAULT_USER=marius
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-unsetopt share_history
+unset HISTFILE
 
 # Github's command line tool 'hub'
 eval "$(hub alias -s)"
