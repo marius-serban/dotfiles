@@ -1,9 +1,14 @@
-# Homebrew
-export PATH="/usr/local/bin:$PATH"
+# Oh my zsh
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="agnoster"
+DEFAULT_USER=marius
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+unsetopt share_history
 
 # Github's command line tool 'hub'
 eval "$(hub alias -s)"
-fpath=(~/.zsh/completions $fpath) 
+fpath=(~/.zsh/completions $fpath)
 autoload -U compinit && compinit
 
 # swiftenv
