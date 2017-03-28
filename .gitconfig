@@ -1,7 +1,7 @@
 [user]
 	name = Marius Serban
 	email = marius.serban@protonmail.com
-	signingkey = 17A62ABA
+	signingkey = 7AB0D7C2
 [commit]
 	gpgsign = true
 	template = ~/.stCommitMsg
