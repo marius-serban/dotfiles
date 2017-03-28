@@ -17,5 +17,5 @@ if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
 # dotfiles repository support
 alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
 
-# docker
-alias docker-resume="docker start -a -i `docker ps -q -l`"
+# fastlane tools
+export PATH="$HOME/.fastlane/bin:$PATH"
