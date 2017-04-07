@@ -4,7 +4,6 @@
 	signingkey = 7AB0D7C2
 [commit]
 	gpgsign = true
-	template = ~/.stCommitMsg
 [core]
 	excludesfile = /Users/marius/.gitignore_global
 [push]
