@@ -11,9 +11,6 @@ eval "$(hub alias -s)"
 fpath=(~/.zsh/completions $fpath)
 autoload -U compinit && compinit
 
-# swiftenv
-if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
-
 # dotfiles repository support
 alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
 
@@ -24,3 +21,6 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 if [ -f "${HOME}/.gpg-agent-info" ]; then
      . "${HOME}/.gpg-agent-info"
 fi
+
+# nvbn/thefuck tool
+eval "$(thefuck --alias)"
