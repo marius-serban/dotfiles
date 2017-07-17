@@ -1,7 +1,7 @@
 [user]
 	name = Marius Serban
 	email = marius.serban@protonmail.com
-	signingkey = 7AB0D7C2
+	signingkey = E4E1C1CB
 [commit]
 	gpgsign = true
 [core]
