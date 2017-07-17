@@ -17,8 +17,3 @@ alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
 # fastlane tools
 export PATH="$HOME/.fastlane/bin:$PATH"
 
-# use gpg key for ssh
-if [ -f "${HOME}/.gpg-agent-info" ]; then
-     . "${HOME}/.gpg-agent-info"
-fi
-
