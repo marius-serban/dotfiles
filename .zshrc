@@ -6,14 +6,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 unset HISTFILE
 
-# Github's command line tool 'hub'
-eval "$(hub alias -s)"
-fpath=(~/.zsh/completions $fpath)
-autoload -U compinit && compinit
-
 # dotfiles repository support
 alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
 
 # fastlane tools
 export PATH="$HOME/.fastlane/bin:$PATH"
-
