@@ -1,6 +1,6 @@
 [user]
 	name = Marius Serban
-	email = marius.serban@protonmail.com
+	email = marius-serban@users.noreply.github.com
 	signingkey = E4E1C1CB
 [commit]
 	gpgsign = true
