@@ -8,6 +8,3 @@ unset HISTFILE
 
 # dotfiles repository support
 alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
-
-# fastlane tools
-export PATH="$HOME/.fastlane/bin:$PATH"
