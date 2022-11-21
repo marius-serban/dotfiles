@@ -1,3 +1,6 @@
+# homebrew
+PATH="/opt/homebrew/bin:$PATH"
+
 # Oh my zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
